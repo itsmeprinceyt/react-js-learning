@@ -1,0 +1,130 @@
+p{
+    font-family: Poppins;
+    margin: 0;
+}
+
+a{
+    font-family: Poppins;
+    text-decoration: none;
+    color: black;
+    transition: all 0.10s ease;
+}
+body{
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+}
+.github{
+    transition: all 0.10s ease;
+}
+a:visited{
+    color: black;
+}
+a:hover, .github:hover{
+    opacity: 0.5;
+    font-size: 20px;
+}
+.base{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.container2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    transition: all 0.10s ease;
+}
+.container2:hover{
+    background-color: black;
+    color: white;
+}
+.container2:hover .repo{
+    color: white;
+}
+.repo:hover{
+    color: white;
+    opacity: 1;
+    font-size: 16px;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 13px;
+}
+ul{
+    font-family: Poppins;
+    padding: 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 350px;
+    }
+    .text{
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .links ul,li,a{
+        font-size: 15px;
+    }
+    a:hover, .github:hover{
+        opacity: 0.5;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 370px) {
+    .container{
+        width: 250px;
+    }
+    .text{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .links ul,li,a{
+        font-size: 13px;
+    }
+    a:hover, .github:hover{
+        opacity: 0.5;
+        font-size: 14px;
+    }
+}

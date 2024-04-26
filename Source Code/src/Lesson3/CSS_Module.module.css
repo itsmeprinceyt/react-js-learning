@@ -1,0 +1,13 @@
+.button{
+    background-color: red;
+    padding: 10px 20px;
+    border: 1px none;
+    font-family: Arial;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.button:hover{
+    background-color: rgb(136, 0, 0);
+}

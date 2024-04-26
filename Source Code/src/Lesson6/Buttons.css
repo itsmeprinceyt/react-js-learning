@@ -1,0 +1,9 @@
+.CatPhoto{
+    display: none;
+}
+.button-click-me{
+    padding: 10px 15px;
+    background-color: yellow;
+    border: 1px none;
+    border-radius: 5px;
+}

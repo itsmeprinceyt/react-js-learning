@@ -1,0 +1,24 @@
+.mainColorPicker{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.mainColorPicker-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-title-color-picker{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.selected-color{
+    border-radius: 10px;
+    text-align: center;
+    padding: 40%;
+}
+.mainColorPicker-innermost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

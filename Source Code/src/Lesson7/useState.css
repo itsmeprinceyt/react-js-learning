@@ -1,0 +1,41 @@
+.CounterDiv{
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main p{
+    margin: 0;
+    font-size: 100px;
+}
+.CounterDiv-buttons{
+    display: flex;
+    gap: 20px;
+}
+.CounterDiv-buttons button{
+    color: white;
+    background-color: rgb(0, 183, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px none;
+    cursor: pointer;
+    transition: all 0.15s ease
+}
+.CounterDiv-buttons button:hover{
+    background-color: rgb(0, 102, 255);
+}
+.CounterDiv-buttons button:active{
+    opacity: 0.3;
+    background-color: rgb(0, 102, 255);
+}

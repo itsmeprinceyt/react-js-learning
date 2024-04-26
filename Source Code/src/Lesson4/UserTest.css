@@ -1,0 +1,12 @@
+.true-Statement,
+.false-Statement{
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.false-Statement{
+    background-color: red;
+}

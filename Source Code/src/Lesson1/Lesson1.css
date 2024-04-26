@@ -1,0 +1,13 @@
+.div1, .div2{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: pink;
+}
